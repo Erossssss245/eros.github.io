@@ -8,9 +8,9 @@ The wiki covers everything players need to know about the mod:
 - 🔨 Crafting Recipes
 - ⚔️ Mobs & Bosses
 - 🗺️ World Generation
-- 📋 Changelog
+- 📋 Changelogs
 
-**Live site:** [Singularity Wiki](https://Erossssss245.github.io)
+**Live site:** [Singularity Wiki](https://erossssss245.github.io/eros.github.io/)
 
 ---
 
