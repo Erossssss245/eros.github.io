@@ -10,8 +10,8 @@ The wiki covers everything players need to know about the mod:
 - 🗺️ World Generation
 - 📋 Changelog
 
-**Live site:** [Erossssss245.github.io](https://Erossssss245.github.io)
+**Live site:** [Singularity Wiki](https://Erossssss245.github.io)
 
 ---
 
-*Minecraft is a trademark of Mojang Studios. This wiki is unofficial fan documentation.*
+*Minecraft is a trademark of Mojang Studios.*
