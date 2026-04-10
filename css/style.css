@@ -10,13 +10,13 @@
   --bg-surface:    #23232b;
   --bg-card:       #2c2c36;
   --border:        #3a3a48;
-  --accent-green:  #5dbb3e;
-  --accent-green2: #4a9c2f;
+  --accent-green:  #5aabd4;
+  --accent-green2: #3d8fb8;
   --accent-dirt:   #8b6340;
   --accent-stone:  #8a8a8a;
   --text-primary:  #f0f0f0;
   --text-muted:    #9999aa;
-  --text-link:     #7de857;
+  --text-link:     #7dd4f0;
   --font-pixel:    'Press Start 2P', monospace;
   --font-body:     'Segoe UI', system-ui, sans-serif;
   --radius:        6px;
@@ -41,13 +41,13 @@ a {
   text-decoration: none;
   transition: color 0.2s;
 }
-a:hover { color: #b3ff99; text-decoration: underline; }
+a:hover { color: #b3e8ff; text-decoration: underline; }
 
 img { max-width: 100%; display: block; }
 
 /* ===== Header / Navbar ===== */
 header {
-  background: linear-gradient(135deg, #16201a 0%, #1e2f1e 60%, #2a3a20 100%);
+  background: linear-gradient(135deg, #151a20 0%, #1a2535 60%, #1e3050 100%);
   border-bottom: 3px solid var(--accent-green2);
   position: sticky;
   top: 0;
@@ -80,8 +80,8 @@ header {
 .nav-brand .brand-icon {
   width: 36px;
   height: 36px;
-  background: linear-gradient(135deg, #5dbb3e, #3a8a20);
-  border: 2px solid #7de857;
+  background: linear-gradient(135deg, #5aabd4, #2a7aaa);
+  border: 2px solid #7dd4f0;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -106,14 +106,14 @@ nav ul li a {
 }
 nav ul li a:hover,
 nav ul li a.active {
-  background: rgba(93,187,62,0.15);
+  background: rgba(90,171,212,0.15);
   color: var(--accent-green);
   text-decoration: none;
 }
 
 /* ===== Hero ===== */
 .hero {
-  background: linear-gradient(160deg, #1a2a14 0%, #1f2a20 40%, #16201a 100%);
+  background: linear-gradient(160deg, #141a25 0%, #1a2535 40%, #141a25 100%);
   border-bottom: 1px solid var(--border);
   padding: 5rem 1.5rem 4rem;
   text-align: center;
@@ -121,7 +121,7 @@ nav ul li a.active {
 
 .hero-badge {
   display: inline-block;
-  background: rgba(93,187,62,0.18);
+  background: rgba(90,171,212,0.18);
   border: 1px solid var(--accent-green2);
   color: var(--accent-green);
   font-size: 0.75rem;
@@ -174,7 +174,7 @@ nav ul li a.active {
 
 .btn-primary {
   background: var(--accent-green);
-  color: #0f1f0f;
+  color: #0a1520;
 }
 .btn-outline {
   background: transparent;
@@ -278,7 +278,7 @@ main { flex: 1; }
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
-.wiki-table tbody tr:hover { background: rgba(93,187,62,0.06); }
+.wiki-table tbody tr:hover { background: rgba(90,171,212,0.06); }
 .wiki-table td a { color: var(--text-link); }
 
 /* ===== Sidebar Layout (wiki pages) ===== */
@@ -329,7 +329,7 @@ main { flex: 1; }
 }
 .wiki-sidebar ul li a:hover,
 .wiki-sidebar ul li a.active {
-  background: rgba(93,187,62,0.14);
+  background: rgba(90,171,212,0.14);
   color: var(--accent-green);
   text-decoration: none;
 }
@@ -394,7 +394,7 @@ main { flex: 1; }
   font-size: 0.93rem;
   border-left: 4px solid;
 }
-.box-tip   { background: rgba(93,187,62,0.1);  border-color: var(--accent-green); }
+.box-tip   { background: rgba(90,171,212,0.1);  border-color: var(--accent-green); }
 .box-note  { background: rgba(90,120,200,0.12); border-color: #6680cc; }
 .box-warn  { background: rgba(220,150,30,0.12); border-color: #d49b20; color: #e0c060; }
 .box-danger{ background: rgba(200,50,50,0.12);  border-color: #c03030; color: #e08080; }
@@ -408,7 +408,7 @@ code {
   border-radius: 4px;
   font-size: 0.88em;
   font-family: 'Courier New', Courier, monospace;
-  color: #c8e6a0;
+  color: #a0d4e8;
 }
 pre {
   background: rgba(0,0,0,0.4);
@@ -464,7 +464,7 @@ pre code {
 
 .item-card .tag {
   display: inline-block;
-  background: rgba(93,187,62,0.18);
+  background: rgba(90,171,212,0.18);
   color: var(--accent-green);
   font-size: 0.7rem;
   padding: 0.15rem 0.5rem;
